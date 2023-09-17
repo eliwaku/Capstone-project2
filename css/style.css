@@ -90,9 +90,10 @@ svg {
 
 .about-me {
     width: 100%;
-    height: 600px;
+    height: 100%;
     display: flex;
     align-items: center;
+    margin: 40px 0px;
 }
 .interest {
     height: 75%;
@@ -182,7 +183,11 @@ svg {
     }
     .interest {
         order: 1;
+        flex-wrap: wrap;
     }
 
-    
+    .about-text > p {
+        width: 95%;
+    }
+
 }
